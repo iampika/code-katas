@@ -2,6 +2,7 @@
 
 Kata are code challenges focused on improving skill and technique.
 
+- [String repeat](./string-repeat.js)
 - [Remove First and Last Character](./remove-first-and-last-character.js)
 - [Opposite number](./opposite-number.js)
 - [Sum of positive](./sum-of-positive.js)
