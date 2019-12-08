@@ -2,6 +2,19 @@
 
 Kata are code challenges focused on improving skill and technique. Here are my kata solutions:
 
+- [Invert values](./katas/invert-values.js)
+- [Convert number to reversed array of digits](./katas/convert-number-to-reversed-array-of-digits.js)
+- [Count of positives / sum of negatives](./katas/count-of-positives-sum-of-negatives.js)
+- [Function 1 - hello world](./katas/function-1-hello-world.js)
+- [Century From Year](./katas/century-from-year.js)
+- [A Needle in the Haystack](./katas/a-needle-in-the-Haystack.js)
+- [Jenny's secret message](./katas/jennys-secret-message.js)
+- [Keep Hydrated!](./katas/keep-hydrated.js)
+- [Square(n) Sum](./katas/square-n-sum.js)
+- [Reversed Strings](./katas/reversed-strings.js)
+- [Convert boolean values to strings 'Yes' or 'No'.](./katas/convert-boolean-values-to-strings-yes-or-no.js)
+- [Convert a String to a Number!](./katas/convert-a-string-to-a-number.js)
+- [Convert a Number to a String!](./katas/convert-a-number-to-a-string.js)
 - [Sort and Star](./katas/sort-and-star.js)
 - [5 without numbers !!](./katas/5-without-numbers.js)
 - [Sum of differences in array](./katas/sum-of-differences-in-array.js)
