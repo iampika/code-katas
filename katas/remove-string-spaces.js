@@ -1,6 +1,8 @@
 // Remove String Spaces
 // https://www.codewars.com/kata/remove-string-spaces/train/javascript
 
+// Simple, remove the spaces from the string, then return the resultant string.
+
 function noSpace(x) {
   return x
     .trim()
@@ -17,5 +19,3 @@ console.log(
     '88Bifk8hB8BB8BBBB888chl8BhBfd'
 );
 console.log(noSpace('8aaaaa dddd r     ') === '8aaaaaddddr');
-
-// Simple, remove the spaces from the string, then return the resultant string.

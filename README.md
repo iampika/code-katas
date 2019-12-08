@@ -2,6 +2,11 @@
 
 Kata are code challenges focused on improving skill and technique. Here are my kata solutions:
 
+- [Sort and Star](./katas/sort-and-star.js)
+- [5 without numbers !!](./katas/5-without-numbers.js)
+- [Sum of differences in array](./katas/sum-of-differences-in-array.js)
+- [Keep up the hoop](./katas/keep-up-the-hoop.js)
+- [Regexp Basics - is it a digit?](./katas/regexp-basics-is-it-a-digit.js)
 - [Generate range of integers](./katas/generate-range-of-integers.js)
 - [Do I get a bonus?](./katas/do-I-get-a-bonus.js)
 - [The Wide-Mouthed frog!](./katas/the-wide-mouthed-frog.js)
