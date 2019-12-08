@@ -2,6 +2,20 @@
 
 Kata are code challenges focused on improving skill and technique. Here are my kata solutions:
 
+- [You Can't Code Under Pressure #1](./katas/you-cant-code-under-pressure-1.js)
+- [Sentence Smash](./katas/sentence-smash.js)
+- [MakeUpperCase](./katas/make-upper-case.js)
+- [Count by X](./katas/count-by-x.js)
+- [Find Maximum and Minimum Values of a List](./katas/find-maximum-and-minimum-values-of-a-list.js)
+- [DNA to RNA Conversion](./katas/DNA-to-RNA-conversion.js)
+- [Sum without highest and lowest number](./katas/sum-without-highest-and-lowest-number.js)
+- [Is n divisible by x and y?](./katas/is-n-divisible-by-x-and-y.js)
+- [Sum Arrays](./katas/sum-arrays.js)
+- [Reversed Words](./katas/reversed-words.js)
+- [Are You Playing Banjo?](./katas/are-you-playing-banjo.js)
+- [Abbreviate a Two Word Name](./katas/abbreviate-a-two-word-name.js)
+- [Beginner - Lost Without a Map](./katas/beginner-lost-Without-a-map.js)
+- [Calculate average](./katas/calculate-average.js)
 - [Invert values](./katas/invert-values.js)
 - [Convert number to reversed array of digits](./katas/convert-number-to-reversed-array-of-digits.js)
 - [Count of positives / sum of negatives](./katas/count-of-positives-sum-of-negatives.js)
