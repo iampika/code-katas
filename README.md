@@ -2,6 +2,11 @@
 
 Kata are code challenges focused on improving skill and technique. Here are my kata solutions:
 
+- [If you can't sleep, just count sheep!!](./katas/if-you-cant-sleep-just-count-sheep.js)
+- [Third Angle of a Triangle](./katas/third-angle-of-a-triangle.js)
+- [Volume of a Cuboid](./katas/volume-of-a-cuboid.js)
+- [Fake Binary](./katas/fake-binary.js)
+- [Transportation on vacation](./katas/transportation-on-vacation.js)
 - [Beginner - Reduce but Grow](./katas/beginner-reduce-but-grow.js)
 - [Convert a Boolean to a String](./katas/convert-a-boolean-to-a-string.js)
 - [I love you, a little , a lot, passionately ... not at all](./katas/i-love-you-a-little-a-lot-passionately-not-at-all.js)
