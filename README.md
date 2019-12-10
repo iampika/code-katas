@@ -2,6 +2,8 @@
 
 Kata are code challenges focused on improving skill and technique. Here are my kata solutions:
 
+- [I love you, a little , a lot, passionately ... not at all](./katas/i-love-you-a-little-a-lot-passionately-not-at-all.js)
+- [Draw stairs](./katas/draw-stairs.js)
 - [You Can't Code Under Pressure #1](./katas/you-cant-code-under-pressure-1.js)
 - [Sentence Smash](./katas/sentence-smash.js)
 - [MakeUpperCase](./katas/make-upper-case.js)
