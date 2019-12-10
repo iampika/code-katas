@@ -17,5 +17,6 @@ function areYouPlayingBanjo(name) {
   );
 }
 
+console.log('Tests');
 console.log(areYouPlayingBanjo('Martin') === 'Martin does not play banjo');
 console.log(areYouPlayingBanjo('Rikke') === 'Rikke plays banjo');
