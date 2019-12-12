@@ -12,7 +12,7 @@ function repeatStr(n, s) {
 
   while (i < n) {
     newStr += s;
-    i++;
+    i += 1;
   }
 
   return newStr;

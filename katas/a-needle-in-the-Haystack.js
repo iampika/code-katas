@@ -12,14 +12,6 @@
 // findNeedle(['hay', 'junk', 'hay', 'hay', 'moreJunk', 'needle', 'randomJunk'])
 // should return "found the needle at position 5"
 
-function findNeedle(haystack) {
-  let str = 'found the needle at position ';
-
-  // return str + haystack.indexOf('needle');
-
-  return str + indexOf('needle', haystack);
-}
-
 function indexOf(item, arr) {
   let index = 0;
   arr.forEach((value, i) => {
@@ -31,7 +23,15 @@ function indexOf(item, arr) {
   return index;
 }
 
-var haystack_1 = [
+function findNeedle(haystack) {
+  const str = 'found the needle at position ';
+
+  // return str + haystack.indexOf('needle');
+
+  return str + indexOf('needle', haystack);
+}
+
+const hayStack1 = [
   '3',
   '123124234',
   undefined,
@@ -43,7 +43,7 @@ var haystack_1 = [
   true,
   false,
 ];
-var haystack_2 = [
+const hayStack2 = [
   '283497238987234',
   'a dog',
   'a cat',
@@ -52,7 +52,7 @@ var haystack_2 = [
   'needle',
   'something somebody lost a while ago',
 ];
-var haystack_3 = [
+const hayStack3 = [
   1,
   2,
   3,
@@ -100,6 +100,6 @@ var haystack_3 = [
 ];
 
 console.log('Tests');
-console.log(findNeedle(haystack_1) === 'found the needle at position 3');
-console.log(findNeedle(haystack_2) === 'found the needle at position 5');
-console.log(findNeedle(haystack_3) === 'found the needle at position 30');
+console.log(findNeedle(hayStack1) === 'found the needle at position 3');
+console.log(findNeedle(hayStack2) === 'found the needle at position 5');
+console.log(findNeedle(hayStack3) === 'found the needle at position 30');

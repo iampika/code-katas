@@ -1,7 +1,9 @@
 // Find Maximum and Minimum Values of a List
 // https://www.codewars.com/kata/577a98a6ae28071780000989
 
-// Your task is to make two functions, max and min (maximum and minimum in PHP and Python) that take a(n) array/vector of integers list as input and outputs, respectively, the largest and lowest number in that array/vector.
+// Your task is to make two functions, max and min (maximum and minimum in PHP and Python)
+// that take a(n) array/vector of integers list as input and outputs, respectively,
+// the largest and lowest number in that array/vector.
 
 // #Examples
 
@@ -13,18 +15,26 @@
 
 // You may consider that there will not be any empty arrays/vectors.
 
-var min = function(list) {
+const min = function (list) {
   let num = list[0];
 
-  list.forEach(v => v < num && (num = v));
+  list.forEach((v) => {
+    if (v < num) {
+      num = v;
+    }
+  });
 
   return num;
 };
 
-var max = function(list) {
+const max = function (list) {
   let num = list[0];
 
-  list.forEach(v => v > num && (num = v));
+  list.forEach((v) => {
+    if (v > num) {
+      num = v;
+    }
+  });
 
   return num;
 };

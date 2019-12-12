@@ -10,15 +10,21 @@
 // You can assume, for the purpose of this kata, that the supplied array will not be empty.
 
 class SmallestIntegerFinder {
-  findSmallestInt(args) {
-    let smallestInt = args[0];
-    args.forEach(int => int < smallestInt && (smallestInt = int));
+  // eslint-disable-next-line class-methods-use-this
+  findSmallestInt(...args) {
+    const [array] = args;
+    let smallestInt = array[0];
+    array.forEach((int) => {
+      if (int < smallestInt) {
+        smallestInt = int;
+      }
+    });
     return smallestInt;
   }
 }
 
 console.log('Smallest Integer Tests');
-var sif = new SmallestIntegerFinder();
+const sif = new SmallestIntegerFinder();
 console.log(sif.findSmallestInt([78, 56, 232, 12, 8]) === 8);
 console.log(sif.findSmallestInt([78, 56, 232, 12, 18]) === 12);
 console.log(sif.findSmallestInt([78, 56, 232, 412, 228]) === 56);

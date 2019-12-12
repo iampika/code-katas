@@ -3,10 +3,10 @@
 
 // Write function avg which calculates average of numbers in given list.
 
-function find_average(array) {
+function findAverage(array) {
   return array.reduce((p, c) => p + c, 0) / array.length;
 }
 
 console.log('Tests');
-console.log(find_average([1, 1, 1]) === 1);
-console.log(find_average([1, 2, 3]) === 2);
+console.log(findAverage([1, 1, 1]) === 1);
+console.log(findAverage([1, 2, 3]) === 2);

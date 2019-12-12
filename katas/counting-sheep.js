@@ -1,7 +1,8 @@
 // Counting sheep...
 // https://www.codewars.com/kata/54edbc7200b811e956000556
 
-// Consider an array of sheep where some sheep may be missing from their place.We need a function that counts the number of sheep present in the array(true means present).
+// Consider an array of sheep where some sheep may be missing from their place.
+// We need a function that counts the number of sheep present in the array(true means present).
 
 // For example,
 
@@ -17,11 +18,15 @@
 
 function countSheeps(arrayOfSheep) {
   let count = 0;
-  arrayOfSheep.forEach(sheep => sheep && (count += 1));
+  arrayOfSheep.forEach((sheep) => {
+    if (sheep) {
+      count += 1;
+    }
+  });
   return count;
 }
 
-var array1 = [
+const array1 = [
   true,
   true,
   true,
@@ -49,4 +54,4 @@ var array1 = [
 ];
 
 console.log('Tests');
-console.log(countSheeps(array1) == 17);
+console.log(countSheeps(array1) === 17);

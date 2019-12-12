@@ -1,8 +1,10 @@
 // Sum without highest and lowest number
 // https://www.codewars.com/kata/576b93db1129fcf2200001e6
 
-// Sum all the numbers of the array (in F# and Haskell you get a list) except the highest and the lowest element (the value, not the index!).
-// (The highest/lowest element is respectively only one element at each edge, even if there are more than one with the same value!)
+// Sum all the numbers of the array (in F# and Haskell you get a list) except
+// the highest and the lowest element (the value, not the index!).
+// (The highest/lowest element is respectively only one element at each edge,
+// even if there are more than one with the same value!)
 
 // Example:
 
