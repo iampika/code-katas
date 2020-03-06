@@ -8,7 +8,7 @@
 
 // Good luck:)
 
-function unusualFive() {
+function unusualFive(): number {
   return 'usual'.length;
 }
 
